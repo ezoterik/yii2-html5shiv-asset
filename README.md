@@ -33,7 +33,7 @@ Or set a dependancy in your AppAsset with:
  ```php
  public $depends = [
      // ...
-     'ezoterik\html5ShivAsset\Html5ShivAsset',
+     'ezoterik\html5shivAsset\Html5ShivAsset',
      // ...
  ];
  ```
