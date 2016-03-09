@@ -1,0 +1,34 @@
+{
+    "name": "ezoterik/yii2-html5shiv-asset",
+    "description": "HTML5 Shiv asset for Yii2 framework",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "extension",
+        "html5",
+        "html5shiv",
+        "js"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleg Balykin",
+            "email": "ezoterik.h@gmail.com",
+            "homepage": "http://ezoterik.name",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/ezoterik/yii2-html5shiv-asset/issues?state=open",
+        "source": "https://github.com/ezoterik/yii2-html5shiv-asset"
+    },
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/html5shiv": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ezoterik\\html5shivAsset\\": ""
+        }
+    }
+}
